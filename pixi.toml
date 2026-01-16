@@ -64,6 +64,7 @@ jupyterlab = ">=4.4.3,<5"
 [feature.test.dependencies]
 pytest = "9.*"
 pytest-cov = "*"
+ruff = "*"
 
 [environments]
 prod = { features = ["py313"], solve-group = "prod" }
